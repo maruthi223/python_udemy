@@ -1,0 +1,1 @@
+data = reponse.json()['qoute']
