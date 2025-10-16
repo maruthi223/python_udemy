@@ -1,6 +1,6 @@
 import requests
 
-key = '39053b39482deaeb2886a8a36959fb72'
+key = ''
 my_lat = 17.492118
 my_lng = 78.318268
 parameter = {
@@ -20,4 +20,5 @@ for hour in weather:
     if int(condition) < 700:
         will_rain = True
 if will_rain:
+
     print('take your umbrella')
